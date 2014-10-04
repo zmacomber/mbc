@@ -1,0 +1,89 @@
+#site_center {text-align:center;}
+#main {
+	width:900px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#header {height:470px;}
+
+.col_1, .col_2, .col_3, .column1, .column2, .column3 { float:left;}
+
+/*======= index.html =======*/
+#page1 #content .wrapper { background:url(../images/line2.gif) 324px 0 repeat-y; width:900px;}
+#page1 #content .wrapper_top { background:url(../images/wrapper_top.gif) 281px 0 no-repeat; width:900px;}
+#page1 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 281px bottom no-repeat; width:900px;}
+#page1 #content .col_1 {width:312px;}
+#page1 #content .col_2 { width:570px;}
+
+/*======= index-1.html =======*/
+#page2 #content .wrapper {
+	background:url(../images/line2.gif) 450px 0 repeat-y;
+	width:900px;
+}
+#page2 #content .wrapper_top { background:url(../images/wrapper_top.gif) 351px 0 no-repeat; width:900px;}
+#page2 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 351px bottom no-repeat; width:900px;}
+#page2 #content .col_1 {
+	width:450px;
+}
+#page2 #content .col_2 {
+	width:450px;
+}
+
+/*======= index-2.html =======*/
+/*#page3 #content .wrapper { background:url(../images/line2.gif) 246px 0 repeat-y; width:900px;}*/
+/*#page3 #content .wrapper_top { background:url(../images/wrapper_top.gif) 246px 0 no-repeat; width:900px;}*/
+#page3 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 246px bottom no-repeat; width:900px;}
+#page3 #content .wrapper1 { background:url(../images/line2.gif) 516px 0 repeat-y; width:900px;}
+#page3 #content .wrapper_top1 { background:url(../images/wrapper_top.gif) 516px 0 no-repeat; width:900px;}
+#page3 #content .wrapper_bottom1 { background:url(../images/wrapper_bottom.gif) 516px bottom no-repeat; width:900px;}
+#page3 #content .col_1 {width:277px;}
+#page3 #content .col_2 { width:270px;}
+#page3 #content .col_3 { width:215px;}
+
+/*======= index-3.html =======*/
+#page4 #content .wrapper { background:url(../images/line2.gif) 281px 0 repeat-y; width:900px;}
+#page4 #content .wrapper_top { background:url(../images/wrapper_top.gif) 281px 0 no-repeat; width:900px;}
+#page4 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 281px bottom no-repeat; width:900px;}
+#page4 #content .col_1 {width:282px;}
+#page4 #content .col_2 { width:480px;}
+
+/*======= index-4.html =======*/
+#page5 #content .wrapper { background:url(../images/line2.gif) 351px 0 repeat-y; width:900px;}
+#page5 #content .wrapper_top { background:url(../images/wrapper_top.gif) 351px 0 no-repeat; width:900px;}
+#page5 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 351px bottom no-repeat; width:900px;}
+#page5 #content .col_1 {width:380px;}
+#page5 #content .col_2 { width:377px;}
+
+/*======= index-5.html =======*/
+#page6 #content .wrapper { background:url(../images/line2.gif) 246px 0 repeat-y; width:900px;}
+#page6 #content .wrapper_top { background:url(../images/wrapper_top.gif) 246px 0 no-repeat; width:900px;}
+#page6 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 246px bottom no-repeat; width:900px;}
+#page6 #content .wrapper1 { background:url(../images/line2.gif) 516px 0 repeat-y; width:900px;}
+#page6 #content .wrapper_top1 { background:url(../images/wrapper_top.gif) 516px 0 no-repeat; width:900px;}
+#page6 #content .wrapper_bottom1 { background:url(../images/wrapper_bottom.gif) 516px bottom no-repeat; width:900px;}
+#page6 #content .col_1 {width:277px;}
+#page6 #content .col_2 { width:270px;}
+#page6 #content .col_3 { width:215px;}
+
+/*======= index-6.html =======*/
+#page7 #content .wrapper { background:url(../images/line2.gif) 281px 0 repeat-y; width:900px;}
+#page7 #content .wrapper_top { background:url(../images/wrapper_top.gif) 281px 0 no-repeat; width:900px;}
+#page7 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 281px bottom no-repeat; width:900px;}
+#page7 #content .col_1 {width:282px;}
+#page7 #content .col_2 {
+	width:618px;
+}
+
+}
+#page9 #content .wrapper_top { background:url(../images/wrapper_top.gif) 0px 0 no-repeat; width:900px;}
+#page9 #content .wrapper_bottom { background:url(../images/wrapper_bottom.gif) 0px bottom no-repeat; width:900px;}
+#page9 #content .col_1 {
+	width:860px;
+}
+
+
+/*=========================*/
+
+
+#footer {height:91px;}
