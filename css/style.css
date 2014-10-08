@@ -38,31 +38,34 @@ p { margin:0; padding:0;}
 textarea { width:201px; height:104px; background:none; overflow:auto; border:1px solid #7e7e7e; color:#929292; font-size:1em; font-family:Arial;}
 
 
-ul { list-style:none;}
+ul { list-style:none; }
 
-.menu { z-index:99; }
-.menu li { float:left; padding-left:35px; position:relative; }
-.menu li a { color:#4f4f4f; font-size:1em; font-weight:bold; font-family:Verdana; text-decoration:none; margin-right:36px;}
-.menu li:hover, .menu li:focus { background-color:#7d7d7d; border-radius: 1.6em;}
+.menu { z-index:99; padding-top: 12px; }
+.menu li { float:left; text-align: center; width:140px; position:relative; }
+.menu > li:first-child { margin-left:30px; }
+.menu li a { color:#4f4f4f; font-size:1em; font-weight:bold; font-family:Verdana; text-decoration:none; }
+.menu > li:hover, .menu > li:focus { background-color:#7d7d7d; border-radius: 1.6em;}
 .menu li:hover a { color:#ffffff;}
 .menu li ul { 
-   display:none;
+    display:none; 
+}
+.menu li:hover > ul { 
+   display:block;
    border: 1px solid #adadad;
    position:absolute;
    width:140px;
    border-radius:0.6em;
    background-color:#5D7B93;
    margin: 0;
-   margin-left:-23px;
    padding: 0; 
    color:#4f4f4f;
 }
 .menu li ul li {
    margin-top:5px; 
    margin-left:10px;
+   text-align:left;
    padding:0;
    border-radius:0;
-   background-color:#5D7B93;
    float:left;
    clear:both;	
 }

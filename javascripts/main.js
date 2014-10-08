@@ -14,8 +14,6 @@ $(document).ready(function() {
     
     highlightCurrentMenuChoice();    
     
-    setMenuFade();
-    
 });
 
 function displayCategory(category) {
@@ -40,25 +38,6 @@ function displayFirstPartOfArticle (articleId) {
     fullArticle = article.innerHTML;
     
     article.innerHTML = splitArticle();
-}
-
-function displaySubMenu(elem, e) {
-    var charCode;
-    
-    if(e && e.which){
-        charCode = e.which;
-    }else if(window.event){
-        e = window.event;
-        charCode = e.keyCode;
-    }
-
-    if(charCode == 13) {
-        if ($(elem).next().css('display') == 'none') {
-            $(elem).next().css('display','block');
-        } else {
-            $(elem).next().css('display','none');
-        }
-    }
 }
 
 function getReadingArticle(articleId) {
@@ -108,18 +87,6 @@ function readMore (articleId) {
     article.innerHTML = fullArticle;
             
     return false; 
-}
-
-function setMenuFade() {
-    
-    $('.menu').children('li').hover(
-        function () {
-            $(this).children('ul').fadeIn(250);
-        },
-        function () {
-            $(this).children('ul').fadeOut(250);
-        }
-    );
 }
 
 function splitArticle() {
