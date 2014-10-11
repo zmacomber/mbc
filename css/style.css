@@ -121,12 +121,30 @@ h4 { font-style:italic; margin-bottom:15px; font-size:1em; font-weight:normal;}
 #header .row_1 .col_2 a { color:#919191; text-decoration:none;}
 #header .row_1 .col_2 a:hover { text-decoration:underline;}
 #header .row_1 .indent {}
-#header .row_2 { height:325px; background:url(../images/header_bgd.png) no-repeat right top; font-size:0.75em;}
+#header .row_2 { height:325px; font-size:0.75em;}
 #header .row_2 img { margin:0px 0px 0px 0px;}
 #header .row_2 .col_1 {	width:230px;}
 #header .row_2 .col_1 .top_margin { padding:20px 0 0 0;}
+#header .row_2 .col_2 { margin-left: 10px; width: 660px; height: 325px; background:url(../images/header_background_image_sprite.png) no-repeat; overflow: hidden; }
 #header .row_3 { height:40px; background:url(../images/header_bgd2.png) left top repeat-x; font-size:0.8125em;}
 #header .row_3 .indent { padding:13px 0 0 10px;}
+
+/*header background image sprite coordinates*/
+.header_background_image_sprite_0 { background-position: -0px -0px !important }
+.header_background_image_sprite_1 { background-position: -660px -0px !important }
+.header_background_image_sprite_2 { background-position: -1320px -0px !important }
+.header_background_image_sprite_3 { background-position: -660px -650px !important }
+.header_background_image_sprite_4 { background-position: -1320px -650px !important }
+.header_background_image_sprite_5 { background-position: -0px -975px !important }
+.header_background_image_sprite_6 { background-position: -660px -975px !important }
+.header_background_image_sprite_7 { background-position: -1320px -975px !important }
+.header_background_image_sprite_8 { background-position: -0px -1300px !important }
+.header_background_image_sprite_9 { background-position: -660px -1300px !important }
+.header_background_image_sprite_10 { background-position: -1320px -1300px !important }
+.header_background_image_sprite_11 { background-position: -0px -325px !important }
+.header_background_image_sprite_12 { background-position: -660px -325px !important }
+.header_background_image_sprite_13 { background-position: -1320px -325px !important }
+.header_background_image_sprite_14 { background-position: -0px -650px !important }
 
 /*content*/
 #content { font-size:0.75em; line-height:1.25em; width:900px;}

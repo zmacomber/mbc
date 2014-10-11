@@ -2,16 +2,23 @@ var articleSplit = 1000;
 var revealed     = articleSplit;
 var fullArticle  = "";
 var splitText    = "....<a style='cursor:pointer;tabindex:0' onClick=\"readMore('article')\">Read More</a><span style='display:none'>";
+var headerBackgroundClassPrefix = "header_background_image_sprite_";
+var numBackgroundImages = 14;
 
 $(document).ready(function() {
-    if (document.title.indexOf("Home") == -1) {
-        
-        // Display a random background image at each page
-        var maxVal = 14; //represents number of images to choose from
-        var randVal = Math.random() * maxVal;
-        $("#header .row_2").css("background-image","url(/images/img" + Math.round(randVal) + ".png)");
-    }
-    
+       
+    $("#home").click(function() {
+
+        // Display a random background image
+        // Removes last class from background image div which represents the background-position of the header background image sprite
+        // Then adds the new background-position class based on a random number from 0 to the number of background images specified above
+        var randVal = Math.floor(Math.random() * (numBackgroundImages + 1)) + 0;
+        var headerBackgroundElem = $('#header .row_2 .col_2');
+        var lastClass = headerBackgroundElem.attr('class').split(' ').pop();
+        headerBackgroundElem.removeClass(lastClass).addClass(headerBackgroundClassPrefix + randVal);
+
+    });
+
     highlightCurrentMenuChoice();    
     
 });
