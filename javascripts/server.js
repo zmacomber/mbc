@@ -8,15 +8,16 @@ connection.connect();
 /** Get home page article */
 app.get('/api/home_page_article', function(req,res){
 
-    var results;
+    var result;
 
-    connection.query("select id, title, category, author, image_id, content, date_format(create_date,'%W, %b %d, %Y') AS article_date from articles where       put_on_home_page = 'Y'", function(err, rows, fields) {
+    connection.query("select id, title, category, author, image_id, content, date_format(create_date,'%W, %b %d, %Y') AS article_date " +
+                     "from articles where put_on_home_page = 'Y'", function(err, rows, fields) {
         if (err) throw err;
-        results = rows;
+        result = rows[0];
         res.type('application/json');
-        res.send(results);
+        res.send(result);
     });
 
 });
 
-app.listen(80);
+app.listen(3000);
