@@ -8,7 +8,7 @@ if($deny_login) {
     $login_err = "Login locked. Try again in 15 minutes.";
 } else {
     if (isset($_POST['username']) && isset($_POST['password'])) {	
-        if (($_POST['username'] == 'mbcadmin') && ($_POST['password'] == 'g1e2l3n4!')) {
+        if (($_POST['username'] == 'mbcadmin') && ($_POST['password'] == 'somepass...')) {
             $_SESSION['login_success'] = true;
             header('Location: http://midcoastbaptistchurch.com/admin/index.php');
             exit();  
